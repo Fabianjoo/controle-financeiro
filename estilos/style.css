@@ -33,6 +33,7 @@ nav > ul{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
 }
 
 nav > ul > li{
@@ -77,7 +78,7 @@ nav > ul > li#carteira > a:hover{
 /* PRINCIPAL */
 
 main{
-    background-color: white;
+    background-color: lightgray;
     margin: auto;
     width: 95vw;
     height: 100vh;
