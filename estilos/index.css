@@ -1,0 +1,99 @@
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 226, 226);
+    height: 50vh;
+    width: 50vw;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+}
+
+/* GASTOS */
+.opcoes > a > div#gastos{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    background-color: black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.opcoes > a > div#gastos:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* RENDA VARIAVEL */
+.opcoes > a > div#variavel{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    background-color: red;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.opcoes > a > div#variavel:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+/* RENDA FIXA */
+.opcoes > a > div#fixa{
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    background-color: blue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.opcoes > a > div#fixa:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+
+/* CARTEIRA */
+.opcoes > a > div#carteira{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: green;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    color: white;
+
+    font-weight: bold;
+    text-align: center;
+}
+
+.opcoes > a > div#carteira:hover{
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
