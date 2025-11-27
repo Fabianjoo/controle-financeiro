@@ -78,7 +78,7 @@ nav > ul > li#carteira > a:hover{
 /* PRINCIPAL */
 
 main{
-    background-color: lightgray;
+    background-color: rgb(228, 226, 226);
     margin: auto;
     width: 95vw;
     height: 100vh;

@@ -1,3 +1,149 @@
+/* TELA DE LOGIN OVERLAY */
+h1{
+    margin-bottom: 20px;
+}
+
+.overlay-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/background.png);
+    background-size: cover;
+}
+
+.login-box{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 226, 226);
+    height: 50vh;
+    width: 50vw;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+}
+
+.login{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 5px;
+}
+
+.login > label{
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.login > input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.login > .botao-login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.botao-login > button{
+    padding: 5px;
+    width: 40%;
+    cursor: pointer;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastro > p{
+    margin-right: 10px;
+}
+
+.cadastro > button{
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* TELA DE CADASTRO OVERLAY */
+h1{
+    margin-bottom: 20px;
+}
+
+.overlay-cadastro{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/background.png);
+    background-size: cover;
+}
+
+.cadastro-box{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 226, 226);
+    height: 50vh;
+    width: 50vw;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+}
+
+.cadastro{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 5px;
+}
+
+.cadastro > label{
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.cadastro > input{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.cadastro > .botoes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.inicio > p{
+    margin-right: 10px;
+}
+
+.inicio > button{
+    padding: 2px;
+    cursor: pointer;
+}
+
+/* TELA PRINCIPAL */
 .conteiner{
     height: 100vh;
     width: 100vw;

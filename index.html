@@ -9,6 +9,53 @@
     <title>Controle Financeiro</title>
 </head>
 <body>
+
+    <div class="overlay-login">
+        <div class="login-box">
+            <h1>💰 Controle Financeiro 💰</h1>
+            <div class="login">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
+                <div class="botao-login">
+                    <button class="login-btn">Login</button>
+                </div>
+            </div>
+
+            
+            <div class="cadastro">
+                <p>Não tem cadastro?</p>
+                <button class="cadastro-btn">Criar conta</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="overlay-cadastro">
+        <div class="cadastro-box">
+            <h1>💰 Controle Financeiro 💰</h1>
+            <div class="cadastro">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome">
+                <label for="sobrenome">E-mail</label>
+                <input type="email" id="email">
+                <label for="usuario">Usuário</label>
+                <input type="text" id="usuario-cadastro">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha-cadastro">
+                <button class="criar-conta-btn">Criar conta</button>
+            </div> 
+            <div class="inicio">
+                <p>Já possui Conta?</p>
+                <button class="cancelar-btn">Login</button>
+            </div>
+
+        </div>
+    </div>
+
         <div class="conteiner">
             <div class="opcoes">
                 <a href="">
@@ -25,5 +72,7 @@
                 </a>
             </div>
         </div>
+
+        <script src="scripts/login-cadastro.js"></script>
 </body>
 </html>
